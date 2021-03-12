@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleição 2020</title>
+    <script type="text/javascript" src="js/index.js" ></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css" >
+
+</head>
+<body>
+    <h1>Eleições Rio 2020</h1>
+    <h2>Candidatos a prefeito do Rio</h2>
+    <div class="container">
+        <div class="container1">
+            <div class="container2">
+                <div class="imgs">
+                    <div class="imgs1">
+                        <img class="candidato" src="img/Clarissa_Garotinho.jpg">
+                    </div>
+                    <div><p class="">Clarissa Garotinho - PROS<br>
+                        Código: 1</p>
+                    </div>
+                </div>
+                <div class="imgs">
+                    <div class="imgs1">
+                        <img class="candidato"src="img/Eduardo_paes.jpg">
+                    </div>
+                    <div><p class="">Eduardo Paes - DEM<br>
+                            Código: 2</p>
+                    </div>
+                </div>
+                <div class="imgs">
+                    <div class="imgs1">
+                        <img class="candidato"src="img/Marcelo_Crivella.jpg">
+                    </div>
+                    
+                    <div><p class="">Marcelo Crivella -
+                        Republicanos<br>
+                        Código: 3</p>
+                    </div>
+                </div>
+                <div class="imgs">
+                    <div class="imgs1">
+                        <img class="candidato" src="img/Marcelo_Freixo.jpg">
+                    </div>    
+                    <div><p class="">Marcelo Freixo - PSOL<br>
+                        Código: 4</p>
+
+                    </div>
+                </div>
+            
+                <div class="imgs2" >
+                    <span class="esquerda fonte">Voto Nulo - Código:5 </span>
+                    <span class="direita fonte">Voto Branco - Código:6</span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<br><br>
+    <form name="votaçao">
+        <label class="fonte fundo_branco">Digite o código do seu candidato:</label>
+        <input type="text" id="voto" class="tamanho" maxlength="1">
+        <input type="button" value="Votar" class="tamanho" onclick="votando()"></input>
+        <input type="button" value="resultado" class="tamanho" onclick="resultado()"></input>
+
+    </form>
+<p class="result fonte" id="resultado"></p>
+<p class="result fonte"id="total"></p>
+<p class="result fonte"id="total1"></p>
+</body>
+</html>
